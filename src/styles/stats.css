@@ -12,6 +12,7 @@
 
 .stats_chart-bar {
   position: relative;
+  margin-block-start: 11px;
   block-size: 11px;
   background-color: var(--bg-200);
   border-radius: var(--border-radius-100);

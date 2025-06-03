@@ -11,7 +11,7 @@
 }
 
 .revenue_table-wrapper thead th {
-  padding: 15px 0;
+  padding-bottom: 11px;
   font-size: 0.9em;
   font-weight: 600;
   color: var(--text-100);
