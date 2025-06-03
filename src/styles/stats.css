@@ -1,0 +1,34 @@
+.stats_chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding-block: 37px;
+}
+
+.stats_chart__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats_chart-bar {
+  position: relative;
+  block-size: 11px;
+  background-color: var(--bg-200);
+  border-radius: var(--border-radius-100);
+}
+.stats_chart-bar::after {
+  position: absolute;
+  left: 0;
+  content: '';
+
+  block-size: 11px;
+  border-radius: var(--border-radius-100);
+
+  background-color: var(--line-color-200);
+}
+.stats-1::after {
+  inline-size: 37%;
+}
+.stats-2::after {
+  inline-size: 66.3%;
+}

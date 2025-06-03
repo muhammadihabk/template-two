@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./src/styles/index.css" />
     <link rel="stylesheet" href="./src/styles/header.css" />
     <link rel="stylesheet" href="./src/styles/side-nav.css" />
-    <link rel="stylesheet" href="./src/styles/analytics.css" />
     <link rel="stylesheet" href="./src/styles/revenue.css" />
+    <link rel="stylesheet" href="./src/styles/common.css" />
+    <link rel="stylesheet" href="./src/styles/stats.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -138,13 +139,13 @@
 
       <main>
         <section class="analytics">
-          <div class="analytics_header">
+          <div class="header-with-select">
             <h2>Analytics</h2>
             <select>
               <option>Last 7 days</option>
             </select>
           </div>
-          <div class="analytics_chart-wrapper">
+          <div class="chart-wrapper">
             <canvas id="analytics-chart"></canvas>
           </div>
         </section>
@@ -154,7 +155,7 @@
             <div class="section-header">
               <h2>Overview</h2>
             </div>
-            <div class="revenue_table-wrapper">
+            <div class="revenue_table-wrapper chart-wrapper">
               <table>
                 <thead>
                   <tr>
@@ -189,7 +190,7 @@
             <div class="section-header">
               <h2>Predictions</h2>
             </div>
-            <div class="revenue_table-wrapper">
+            <div class="revenue_table-wrapper chart-wrapper">
               <table>
                 <thead>
                   <tr>
@@ -217,6 +218,31 @@
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats">
+          <div class="header-with-select">
+            <h2>Stats</h2>
+            <select>
+              <option>Last 7 days</option>
+            </select>
+          </div>
+          <div class="stats_chart-wrapper chart-wrapper">
+            <div class="stats_chart">
+              <div class="stats_chart__text">
+                <p>TT1</p>
+                <p>370/1000</p>
+              </div>
+              <div class="stats_chart-bar stats-1"></div>
+            </div>
+            <div class="stats_chart">
+              <div class="stats_chart__text">
+                <p>TT2</p>
+                <p>663/1000</p>
+              </div>
+              <div class="stats_chart-bar stats-2"></div>
             </div>
           </div>
         </section>

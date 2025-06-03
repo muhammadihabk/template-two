@@ -3,9 +3,6 @@
 }
 
 .revenue_table-wrapper {
-  border-radius: var(--border-radius-100);
-  background: linear-gradient(180deg, #fdfdfd 90%, #f7f7f7 100%);
-  box-shadow: 0px 0px 3px #00000030, 0px 0px 11px #00000015;
   padding: 21px 25px;
 }
 

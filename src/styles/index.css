@@ -37,11 +37,24 @@ input::placeholder {
 }
 input {
   outline: none;
+  font: inherit;
+}
+select {
+  background-color: var(--bg-200);
+  border-radius: 9px;
+  border: none;
+  padding: 11px;
+  font-family: inherit;
+  font-weight: 350;
 }
 
 ul {
   list-style: none;
   padding-inline: 0;
+  margin-block: 0;
+}
+
+p {
   margin-block: 0;
 }
 

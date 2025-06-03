@@ -1,24 +1,16 @@
-.analytics_header {
+.header-with-select {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.analytics_header h2 {
+.header-with-select h2 {
   font-size: 1.25rem;
 }
 
-.analytics select {
-  background-color: var(--bg-200);
-  border-radius: 9px;
-  border: none;
-  padding: 11px;
-  font-family: inherit;
-  font-weight: 350;
-}
-
-.analytics_chart-wrapper {
-  border-radius: 17px;
+.chart-wrapper {
+  display: flex;
   margin-block-start: 11px;
+  border-radius: var(--border-radius-100);
   padding: 21px;
   background: linear-gradient(180deg, #fdfdfd 90%, #f7f7f7 100%);
   box-shadow: 0px 0px 3px #00000030, 0px 0px 11px #00000015;
