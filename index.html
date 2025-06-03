@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./src/styles/index.css" />
     <link rel="stylesheet" href="./src/styles/header.css" />
     <link rel="stylesheet" href="./src/styles/side-nav.css" />
+    <link rel="stylesheet" href="./src/styles/analytics.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +18,8 @@
 
     <script src="./src/scripts/header.js" type="module" defer></script>
     <script src="./src/scripts/side-nav.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="./src/scripts/analytics.js" type="module" defer></script>
 
     <title>Template Two</title>
   </head>
@@ -131,6 +134,20 @@
           </li>
         </ul>
       </nav>
+
+      <main>
+        <section class="analytics">
+          <div class="analytics_header">
+            <h2>Analytics</h2>
+            <select>
+              <option>Last 7 days</option>
+            </select>
+          </div>
+          <div class="analytics_chart-wrapper">
+            <canvas id="analytics-chart"></canvas>
+          </div>
+        </section>
+      </main>
     </div>
   </body>
 </html>
