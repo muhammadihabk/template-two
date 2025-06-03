@@ -11,7 +11,9 @@
 
   --line-color-100: #dfdfdf;
   --line-color-200: #636363;
+  --border: 1px solid var(--line-color-100);
   --border-radius: 14px;
+  --border-radius-100: 17px;
 
   --gap: 10px;
   --padding-inline: 21px;
