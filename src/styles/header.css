@@ -4,7 +4,7 @@ header {
 
   display: flex;
   justify-content: space-between;
-  background-color: #f7f7f7;
+  background-color: var(--bg-100);
   padding-inline: var(--padding-inline);
 }
 

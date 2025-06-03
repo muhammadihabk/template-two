@@ -1,0 +1,25 @@
+.side-nav {
+  display: none;
+  max-inline-size: fit-content;
+  max-block-size: fit-content;
+  padding-inline: var(--padding-inline);
+  background-color: var(--bg-100);
+}
+
+.side-nav ul {
+  display: flex;
+  flex-direction: column;
+}
+.side-nav li {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  margin-block-start: var(--gap);
+  margin-block-end: calc(2 * var(--gap));
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.script_show-side-nav {
+  display: block;
+}

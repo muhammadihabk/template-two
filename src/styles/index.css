@@ -3,6 +3,7 @@
 }
 
 :root {
+  --bg-100: #f7f7f7;
   --bg-200: #dfdfdf;
   --text-100: #797979;
   --text-200: #191919;
@@ -33,4 +34,14 @@ input::placeholder {
 }
 input {
   outline: none;
+}
+
+ul {
+  list-style: none;
+  padding-inline: 0;
+  margin-block: 0;
+}
+
+.page-wrapper {
+  display: flex;
 }
