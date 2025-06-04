@@ -3,6 +3,7 @@
   block-size: 100% !important;
 }
 
-.analytics-chart-wrapper {
-  max-block-size: 500px;
+.analytics-chart {
+  padding: 1rem;
+  height: calc(max(200px, 20vw));
 }

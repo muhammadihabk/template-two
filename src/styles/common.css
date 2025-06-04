@@ -3,7 +3,44 @@
   position: relative;
 }
 
-.header-with-select {
+/* ************************
+ * Responsive main content
+ * ************************/
+main {
+  flex-grow: 1;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(3 * var(--gap));
+  padding: var(--padding-inline);
+}
+section,
+.overview,
+.predictions,
+.recent-transactions {
+  margin-block-start: 21px;
+}
+.left-section {
+  flex: 3 1 300px;
+}
+.revenue {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+  column-gap: calc(2 * var(--gap));
+}
+.stats {
+  flex: 1 1 300px;
+}
+.cards {
+  flex: 1 1 300px;
+}
+.cards_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+  gap: calc(2 * var(--gap));
+}
+
+.section-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,18 +52,6 @@
   padding: 21px;
   background: linear-gradient(180deg, #fdfdfd 90%, #f7f7f7 100%);
   box-shadow: 0px 0px 3px #00000030, 0px 0px 11px #00000015;
-}
-
-.section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.section-header h2 {
-  font-size: 1.25rem;
-}
-.section-header h3 {
-  font-size: 1rem;
 }
 
 .pointer-cursor {

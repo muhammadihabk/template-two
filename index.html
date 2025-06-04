@@ -141,19 +141,19 @@
 
       <main>
         <section class="left-section">
-          <section class="analytics">
-            <div class="header-with-select">
+          <div class="analytics">
+            <div class="section-header">
               <h2>Analytics</h2>
               <select>
                 <option>Last 7 days</option>
               </select>
             </div>
-            <div class="analytics-chart-wrapper chart-wrapper">
+            <div class="analytics-chart chart-wrapper">
               <canvas id="analytics-chart"></canvas>
             </div>
-          </section>
+          </div>
 
-          <section class="revenue">
+          <div class="revenue">
             <div class="overview">
               <h2>Overview</h2>
               <div class="revenue_table chart-wrapper">
@@ -219,30 +219,32 @@
                 </table>
               </div>
             </div>
-          </section>
+          </div>
         </section>
 
         <section class="stats">
-          <div class="header-with-select">
-            <h2>Stats</h2>
-            <select>
-              <option>Last 7 days</option>
-            </select>
-          </div>
-          <div class="stats_chart-wrapper chart-wrapper">
-            <div class="stats_chart">
-              <div class="stats_chart__text">
-                <p>TT1</p>
-                <p>370/1000</p>
-              </div>
-              <div class="stats_chart-bar stats-1"></div>
+          <div class="stats-wrapper">
+            <div class="section-header">
+              <h2>Stats</h2>
+              <select>
+                <option>Last 7 days</option>
+              </select>
             </div>
-            <div class="stats_chart">
-              <div class="stats_chart__text">
-                <p>TT2</p>
-                <p>663/1000</p>
+            <div class="stats_chart-wrapper chart-wrapper">
+              <div class="stats_chart">
+                <div class="stats_chart__text">
+                  <p>TT1</p>
+                  <p>370/1000</p>
+                </div>
+                <div class="stats_chart-bar stats-1"></div>
               </div>
-              <div class="stats_chart-bar stats-2"></div>
+              <div class="stats_chart">
+                <div class="stats_chart__text">
+                  <p>TT2</p>
+                  <p>663/1000</p>
+                </div>
+                <div class="stats_chart-bar stats-2"></div>
+              </div>
             </div>
           </div>
 
@@ -311,13 +313,13 @@
         </section>
 
         <section class="cards">
-          <div class="header-with-select">
+          <div class="section-header">
             <h2>Cards</h2>
             <select>
               <option>All</option>
             </select>
           </div>
-          <div class="cards_card-wrapper">
+          <div class="cards_grid">
             <div class="cards_card chart-wrapper">
               <p class="card-header">Lorem Ipsum</p>
               <p class="money">$ 3972.33</p>

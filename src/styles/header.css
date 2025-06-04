@@ -7,6 +7,7 @@ header {
   justify-content: space-between;
   background-color: var(--bg-100);
   padding-inline: var(--padding-inline);
+  padding-block: calc(0.5 * var(--padding-inline));
 }
 
 .header_start {
