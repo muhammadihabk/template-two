@@ -8,7 +8,6 @@
 }
 
 .chart-wrapper {
-  display: flex;
   margin-block-start: 11px;
   border-radius: var(--border-radius-100);
   padding: 21px;

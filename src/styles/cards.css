@@ -1,0 +1,16 @@
+.cards_card {
+  display: flex;
+  flex-direction: column;
+  gap: calc(2 * var(--gap));
+  color: var(--text-100);
+}
+
+.card-header {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.money {
+  color: var(--text-200);
+  font-size: 1.2rem;
+  font-weight: 500;
+}

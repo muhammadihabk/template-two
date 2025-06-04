@@ -7,7 +7,7 @@
   --bg-100: #f7f7f7;
   --bg-200: #dfdfdf;
   --text-100: #797979;
-  --text-200: #191919;
+  --text-200: #595959;
 
   --line-color-100: #dfdfdf;
   --line-color-200: #636363;
@@ -40,10 +40,10 @@ input {
   font: inherit;
 }
 select {
-  background-color: var(--bg-200);
-  border-radius: 9px;
+  background: linear-gradient(180deg, #f1f1f1 20%, #f7f7f7, #dfdfdf 90%);
+  border-radius: var(--border-radius);
   border: none;
-  padding: 11px;
+  padding: 14px;
   font-family: inherit;
   font-weight: 350;
 }
