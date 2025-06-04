@@ -1,3 +1,8 @@
+.page-wrapper {
+  display: flex;
+  position: relative;
+}
+
 main {
   padding-inline: var(--padding-inline);
 }
