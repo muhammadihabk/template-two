@@ -2,7 +2,6 @@
   display: none;
   max-inline-size: fit-content;
   padding-inline: var(--padding-inline);
-  background-color: var(--bg-100);
   z-index: 50;
 }
 

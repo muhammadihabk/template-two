@@ -23,6 +23,7 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
+  background-color: var(--bg-100);
 }
 
 input[type='search']::-webkit-search-cancel-button {
