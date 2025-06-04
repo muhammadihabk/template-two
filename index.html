@@ -140,88 +140,86 @@
       </nav>
 
       <main>
-        <section class="analytics">
-          <div class="header-with-select">
-            <h2>Analytics</h2>
-            <select>
-              <option>Last 7 days</option>
-            </select>
-          </div>
-          <div class="analytics-chart-wrapper chart-wrapper">
-            <canvas id="analytics-chart"></canvas>
-          </div>
-        </section>
+        <section class="left-section">
+          <section class="analytics">
+            <div class="header-with-select">
+              <h2>Analytics</h2>
+              <select>
+                <option>Last 7 days</option>
+              </select>
+            </div>
+            <div class="analytics-chart-wrapper chart-wrapper">
+              <canvas id="analytics-chart"></canvas>
+            </div>
+          </section>
 
-        <section class="revenue">
-          <div class="overview">
-            <div class="section-header">
+          <section class="revenue">
+            <div class="overview">
               <h2>Overview</h2>
+              <div class="revenue_table chart-wrapper">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Quarter</th>
+                      <th>Revenue</th>
+                      <th>Growth</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Q1 - Last</td>
+                      <td>$3680</td>
+                      <td>
+                        <span class="growth-arrow positive">&#9650;</span>
+                        <span class="growth-value">$70</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Q2 - Current</td>
+                      <td>$4680</td>
+                      <td>
+                        <span class="growth-arrow positive">&#9650;</span>
+                        <span class="growth-value">$420</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="revenue_table-wrapper chart-wrapper">
-              <table>
-                <thead>
-                  <tr>
-                    <th class="align-left">Quarter</th>
-                    <th class="align-right">Revenue</th>
-                    <th class="align-right">Growth</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="align-left">Q1 - Last</td>
-                    <td class="align-right">$3680</td>
-                    <td class="align-right">
-                      <span class="growth-arrow positive">&#9650;</span>
-                      <span class="growth-value">$70</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="align-left">Q2 - Current</td>
-                    <td class="align-right">$4680</td>
-                    <td class="align-right">
-                      <span class="growth-arrow positive">&#9650;</span>
-                      <span class="growth-value">$420</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
 
-          <div class="predictions">
-            <div class="section-header">
+            <div class="predictions">
               <h2>Predictions</h2>
+              <div class="revenue_table chart-wrapper">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Quarter</th>
+                      <th>Revenue</th>
+                      <th>Growth</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Q1 - Last</td>
+                      <td>$5880</td>
+                      <td>
+                        <span class="growth-arrow positive">&#9650;</span>
+                        <span class="growth-value">$170</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Q2 - Current</td>
+                      <td>$9030</td>
+                      <td>
+                        <span class="growth-arrow positive">&#9650;</span>
+                        <span class="growth-value">$700</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="revenue_table-wrapper chart-wrapper">
-              <table>
-                <thead>
-                  <tr>
-                    <th class="align-left">Quarter</th>
-                    <th class="align-right">Revenue</th>
-                    <th class="align-right">Growth</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="align-left">Q1 - Last</td>
-                    <td class="align-right">$5880</td>
-                    <td class="align-right">
-                      <span class="growth-arrow positive">&#9650;</span>
-                      <span class="growth-value">$170</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="align-left">Q2 - Current</td>
-                    <td class="align-right">$9030</td>
-                    <td class="align-right">
-                      <span class="growth-arrow positive">&#9650;</span>
-                      <span class="growth-value">$700</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+          </section>
         </section>
 
         <section class="stats">

@@ -1,45 +1,27 @@
-.revenue_table-wrapper {
-  padding: 21px 25px;
-}
-
-.revenue_table-wrapper table {
+table {
   width: 100%;
+  text-align: left;
 }
 
-.revenue_table-wrapper thead th {
-  padding-bottom: 11px;
+.revenue_table thead th {
   font-size: 0.9em;
   font-weight: 600;
   color: var(--text-100);
+  padding-block-end: 11px;
 }
 
-.revenue_table-wrapper thead tr {
+.revenue_table th,
+.revenue_table td {
   border-bottom: var(--border);
 }
-
-thead tr,
-tbody {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-tbody tr {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.revenue_table tbody tr:last-child td {
+  border-bottom: none;
 }
 
-.revenue_table-wrapper tbody td {
-  padding: 15px 0;
+.revenue_table tbody td {
+  padding-block: 15px;
   font-size: 1em;
   color: #191919;
-}
-
-.revenue_table-wrapper .align-left {
-  text-align: left;
-}
-.revenue_table-wrapper .align-right {
-  text-align: right;
 }
 
 .growth-arrow {
@@ -49,5 +31,6 @@ tbody tr {
   color: #4caf50;
 }
 .growth-value {
+  color: var(--text-200);
   font-weight: 600;
 }

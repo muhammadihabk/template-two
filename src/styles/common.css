@@ -3,17 +3,10 @@
   position: relative;
 }
 
-main {
-  padding-inline: var(--padding-inline);
-}
-
 .header-with-select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.header-with-select h2 {
-  font-size: 1.25rem;
 }
 
 .chart-wrapper {
