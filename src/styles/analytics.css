@@ -1,0 +1,8 @@
+#analytics-chart {
+  inline-size: 100% !important;
+  block-size: 100% !important;
+}
+
+.analytics-chart-wrapper {
+  max-block-size: 500px;
+}

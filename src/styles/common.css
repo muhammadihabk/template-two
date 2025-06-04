@@ -1,3 +1,7 @@
+main {
+  padding-inline: var(--padding-inline);
+}
+
 .header-with-select {
   display: flex;
   justify-content: space-between;
@@ -15,17 +19,16 @@
   box-shadow: 0px 0px 3px #00000030, 0px 0px 11px #00000015;
 }
 
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .section-header h2 {
   font-size: 1.25rem;
 }
 .section-header h3 {
   font-size: 1rem;
-}
-
-.section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .pointer-cursor {
